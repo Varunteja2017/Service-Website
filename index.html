@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+   
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .about-section {
+      background-color: #e7e3db6d;
+      padding: 20px;
+      font-size:x-large;
+    }
+    .aboutimg{
+      float:right;
+    }
+    .services-section{
+      display: grid;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+    }
+    .service{
+      border: 2px black double;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 20px;
+      background-color: rgb(200, 241, 242);
+    }
+    .sub{
+      width: 200px;
+      height: 200px;
+      float:left;
+      margin:20px;
+    }
+    p{
+      font-size: x-large;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2px 0;
+      bottom: 0;
+      width: 100%;
+    }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Household Services</h1>
+  </header>
+  <div class="navbar">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+  <div class="about" >
+  </div>
+  <img src="wtt assugn.jpg" width="1450px" height="500px">
+  <div class="about-section">
+    <h1>About Us</h1>
+    <img  class="aboutimg" src="wtt assugn.jpg" height="200px" width="300px">
+    <p>Welcome to our household services website! We are dedicated to providing high-quality and reliable services to meet all your household needs. Our team consists of skilled professionals who specialize in plumbing, carpentry, laundry, house construction labor, servant services, and security guard services.</p>
+    <p>With years of experience in the industry, we strive to deliver exceptional customer satisfaction and ensure that your home is in safe hands. Whether you need a leaky faucet fixed, a new shelf installed, your laundry taken care of, or security for your premises, we've got you covered!</p>
+  
+  </div>
+  
+  <div class="services-section">
+    <h1 align="center">Our Services</h1>
+    <div class="service" id="plumbing">
+      <h1>Plumbing</h1>
+      <img src="plumbing.jpg" class="sub" >
+      <p>Welcome to our plumbing services! we pride ourselves on delivering top-notch plumbing solutions tailored to meet your needs. With years of experience in the industry, our team of skilled plumbers is dedicated to resolving your plumbing issues efficiently and effectively.</p>
+    </div>
+    <div class="service" id="carpentry">
+      <h1>Carpentry</h1>
+      <img src="carp.jpg" class="sub">
+      <p>Welcome to our carpentry services!we are passionate about creating custom woodwork that enhances your living spaces. With a team of skilled carpenters and craftsmen, we specialize in bringing your design ideas to life with precision and creativity.</p>
+    </div>
+    <div class="service" id="laundry">
+      <h1>Laundry</h1>
+      <img src="laundry.jpg" class="sub">
+      <p>Welcome to our laundry services!we understand the importance of clean and fresh laundry in maintaining a comfortable and hygienic home environment. With our convenient and reliable laundry solutions, we take the hassle out of your laundry routine.</p>
+    </div>
+    <div class="service" id="security">
+      <h1>Security</h1>
+      <img src="security.avif" class="sub">
+      <p>Welcome to our security services! we prioritize the safety and security of your home and loved ones. With our professional security solutions, you can enjoy peace of mind knowing that your property is protected by dedicated security professionals.</p>
+    </div>
+  </div>
+  <header>
+    <h1 Align=center>Contact Us</h1>
+  </header>
+  
+  <div class="container">
+    <p><strong>Name:</strong> M.Varun Teja</p>
+    <p><strong>Email:</strong> xyz@gmail.com</p>
+    <p><strong>Phone:</strong> 9876543210</p>
+    <p><strong>Address:</strong> Stanza dijon Living kokapet</p>
+    <p><strong>City:</strong> Hyderabad</p>
+  </div>
+  
+  <footer>
+    <p>Contact us at: XYZ@gmail.com | Phone: 9876543210</p>
+  </footer>
+</body>
+</html>
